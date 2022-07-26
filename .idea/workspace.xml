@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b7bf1b8-6388-453b-a34f-75659e45da5d" name="Changes" comment="Problem1">
-      <change afterPath="$PROJECT_DIR$/src/selfgfg/Sort012.java" afterDir="false" />
+    <list default="true" id="2b7bf1b8-6388-453b-a34f-75659e45da5d" name="Changes" comment="Sort Problem">
+      <change afterPath="$PROJECT_DIR$/src/selfgfg/array/SubArraySum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/selfgfg/linkedlist/DetectLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/selfgfg/linkedlist/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/selfgfg/searching/BinarySearching.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/selfgfg/string/ReverseWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/selfgfg/string/SortString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/selfgfg/string/SubStringFind.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,16 +44,48 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.selfgfg.array.Sort012">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+  <component name="RunManager" selected="Application.SubStringFind">
+    <configuration name="BinarySearching" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="selfgfg.searching.BinarySearching" />
       <module name="MyGeeksforGeeksSelf" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="selfgfg.searching.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="selfgfg.array.Sort012" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="selfgfg.array.Sort012" />
+    <configuration name="ReverseWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="selfgfg.string.ReverseWords" />
+      <module name="MyGeeksforGeeksSelf" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="selfgfg.string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SortString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="selfgfg.string.SortString" />
+      <module name="MyGeeksforGeeksSelf" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="selfgfg.string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SubArraySum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="selfgfg.array.SubArraySum" />
       <module name="MyGeeksforGeeksSelf" />
       <extension name="coverage">
         <pattern>
@@ -59,10 +97,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SubStringFind" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="selfgfg.string.SubStringFind" />
+      <module name="MyGeeksforGeeksSelf" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="selfgfg.string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.selfgfg.array.Sort012" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.SubStringFind" />
+        <item itemvalue="Application.SubArraySum" />
+        <item itemvalue="Application.SortString" />
+        <item itemvalue="Application.BinarySearching" />
+        <item itemvalue="Application.ReverseWords" />
       </list>
     </recent_temporary>
   </component>
@@ -89,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656875408801</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Sort Problem">
+      <created>1658777808837</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1658777808837</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -105,6 +166,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Problem1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Problem1" />
+    <MESSAGE value="Sort Problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sort Problem" />
   </component>
 </project>
