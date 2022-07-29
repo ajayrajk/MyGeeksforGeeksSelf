@@ -1,7 +1,7 @@
 package recursion;
 
 public class Problem1 {
-    boolean recursiveSearch(int arr[], int l,
+    static boolean recursiveSearch(int arr[], int l,
                          int r, int x)
     {
         if (r < l)
@@ -13,6 +13,12 @@ public class Problem1 {
 
         return recursiveSearch(arr, l + 1,
                 r - 1, x);
+    }
+
+    public static void main(String[] args) {
+       int  array[] = {1, 2, 3, 4, 5};
+
+       System.out.println("Item is : "+ recursiveSearch(array,0,4,3));
     }
 
 
