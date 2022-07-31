@@ -4,15 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b7bf1b8-6388-453b-a34f-75659e45da5d" name="Changes" comment="Problem">
-      <change afterPath="$PROJECT_DIR$/src/recursion/Problem2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recursion/SubsetProblem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/selfgfg/array/DuplicateFromArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/selfgfg/string/Palindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/selfgfg/string/ParenthesisChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/selfgfg/string/Reverse.java" afterDir="false" />
+    <list default="true" id="2b7bf1b8-6388-453b-a34f-75659e45da5d" name="Changes" comment="Some More Problem solve">
+      <change afterPath="$PROJECT_DIR$/src/selfgfg/string/IsAnagram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/selfgfg/string/LeftMostRepeatedChar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/selfgfg/string/PatternSearching.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/selfgfg/string/ReverseWordFromString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/selfgfg/string/SubSequenceIterative.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/selfgfg/string/SubSequenceRecursion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recursion/Problem1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/recursion/Problem1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/selfgfg/string/Palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/selfgfg/string/Palindrome.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +29,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/recursion/Problem2.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/recursion/SubsetProblem.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/selfgfg/array/DuplicateFromArray.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/selfgfg/string/IsAnagram.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/selfgfg/string/LeftMostRepeatedChar.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/selfgfg/string/Palindrome.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/selfgfg/string/ParenthesisChecker.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/selfgfg/string/PatternSearching.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/selfgfg/string/SubSequenceIterative.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/selfgfg/string/SubSequenceRecursion.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -44,22 +56,9 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.DuplicateFromArray">
-    <configuration name="DuplicateFromArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="selfgfg.array.DuplicateFromArray" />
-      <module name="MyGeeksforGeeksSelf" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="selfgfg.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="selfgfg.string.Palindrome" />
+  <component name="RunManager" selected="Application.ReverseWordFromString">
+    <configuration name="IsAnagram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="selfgfg.string.IsAnagram" />
       <module name="MyGeeksforGeeksSelf" />
       <extension name="coverage">
         <pattern>
@@ -71,12 +70,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Problem1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursion.Problem1" />
+    <configuration name="LeftMostRepeatedChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="selfgfg.string.LeftMostRepeatedChar" />
       <module name="MyGeeksforGeeksSelf" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="recursion.*" />
+          <option name="PATTERN" value="selfgfg.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Problem2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursion.Problem2" />
+    <configuration name="ReverseWordFromString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="selfgfg.string.ReverseWordFromString" />
       <module name="MyGeeksforGeeksSelf" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="recursion.*" />
+          <option name="PATTERN" value="selfgfg.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +96,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubsetProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursion.SubsetProblem" />
+    <configuration name="SubSequenceIterative" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="selfgfg.string.SubSequenceIterative" />
       <module name="MyGeeksforGeeksSelf" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="recursion.*" />
+          <option name="PATTERN" value="selfgfg.string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SubSequenceRecursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="selfgfg.string.SubSequenceRecursion" />
+      <module name="MyGeeksforGeeksSelf" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="selfgfg.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DuplicateFromArray" />
-        <item itemvalue="Application.SubsetProblem" />
-        <item itemvalue="Application.Problem2" />
-        <item itemvalue="Application.Problem1" />
-        <item itemvalue="Application.Palindrome" />
+        <item itemvalue="Application.ReverseWordFromString" />
+        <item itemvalue="Application.LeftMostRepeatedChar" />
+        <item itemvalue="Application.IsAnagram" />
+        <item itemvalue="Application.SubSequenceRecursion" />
+        <item itemvalue="Application.SubSequenceIterative" />
       </list>
     </recent_temporary>
   </component>
@@ -157,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658864364037</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Some More Problem solve">
+      <created>1659125990463</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1659125990464</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -175,7 +194,8 @@
     <MESSAGE value="Problem1" />
     <MESSAGE value="Sort Problem" />
     <MESSAGE value="Problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="Problem" />
+    <MESSAGE value="Some More Problem solve" />
+    <option name="LAST_COMMIT_MESSAGE" value="Some More Problem solve" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -219,6 +239,40 @@
           <url>file://$PROJECT_DIR$/src/recursion/SubsetProblem.java</url>
           <line>13</line>
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/selfgfg/string/LeftMostRepeatedChar.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/selfgfg/string/LeftMostRepeatedChar.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/selfgfg/string/LeftMostRepeatedChar.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/selfgfg/string/LeftMostRepeatedChar.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/selfgfg/string/LeftMostRepeatedChar.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/selfgfg/string/LeftMostRepeatedChar.java</url>
+          <line>6</line>
+          <properties class="selfgfg.string.LeftMostRepeatedChar" method="leftMost">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
