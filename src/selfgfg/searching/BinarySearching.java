@@ -4,8 +4,9 @@ public class BinarySearching {
     static int binarySearch(int arr[], int n, int k){
         // code here
         int low=0 , high=n-1;
-        int mid=(low+high)/2;
+
         while(low<=high){
+            int mid=(low+high)/2;
             if(arr[mid]==k){
                 return mid;
             }else if(arr[mid]>k){
@@ -13,15 +14,15 @@ public class BinarySearching {
             }else if(arr[mid]<k){
                 low=mid+1;
             }
-            mid=(low+high)/2;
+            //mid=(low+high)/2;
         }
         return -1;
     }
 
     public static void main(String[] args) {
-       int arr[] = {1 ,2 ,3 ,4 ,5};
+       int arr[] = {1 ,2 ,3 ,4 ,6};
 
-       System.out.println("Search element at: "+ binarySearch(arr,5,4));
+       System.out.println("Search element at: "+ binarySearch(arr,5,6));
 
     }
 }

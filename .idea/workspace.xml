@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b7bf1b8-6388-453b-a34f-75659e45da5d" name="Changes" comment="Some More Problem solve">
-      <change afterPath="$PROJECT_DIR$/src/selfgfg/array/ReverseArrayUsingRecursion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/selfgfg/array/SecondLargest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/selfgfg/sorting/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/selfgfg/stack/StackAsLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/selfgfg/stack/StackUsingArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/selfgfg/array/NextGreaterElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/selfgfg/stack/BalancedParenthesis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/selfgfg/stack/NextGreaterElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/selfgfg/stack/StockSpanProblem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/selfgfg/string/ReverseWordFromString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/selfgfg/string/ReverseWordFromString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/selfgfg/searching/BinarySearching.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/selfgfg/searching/BinarySearching.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,22 +60,14 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.StackAsLinkedList">
-    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="selfgfg.sorting.BubbleSort" />
-      <module name="MyGeeksforGeeksSelf" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="selfgfg.sorting.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="selfgfg.stack.Main" />
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="selfgfg.stack" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.NextGreaterElement">
+    <configuration name="BalancedParenthesis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="selfgfg.stack.BalancedParenthesis" />
       <module name="MyGeeksforGeeksSelf" />
       <extension name="coverage">
         <pattern>
@@ -88,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseArrayUsingRecursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="selfgfg.array.ReverseArrayUsingRecursion" />
+    <configuration name="BinarySearching" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="selfgfg.searching.BinarySearching" />
       <module name="MyGeeksforGeeksSelf" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="selfgfg.array.*" />
+          <option name="PATTERN" value="selfgfg.searching.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,8 +92,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SecondLargest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="selfgfg.array.SecondLargest" />
+    <configuration name="NextGreaterElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="selfgfg.array.NextGreaterElement" />
       <module name="MyGeeksforGeeksSelf" />
       <extension name="coverage">
         <pattern>
@@ -127,13 +118,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StockSpanProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="selfgfg.stack.StockSpanProblem" />
+      <module name="MyGeeksforGeeksSelf" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="selfgfg.stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NextGreaterElement" />
+        <item itemvalue="Application.BinarySearching" />
+        <item itemvalue="Application.BalancedParenthesis" />
+        <item itemvalue="Application.StockSpanProblem" />
         <item itemvalue="Application.StackAsLinkedList" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.BubbleSort" />
-        <item itemvalue="Application.ReverseArrayUsingRecursion" />
-        <item itemvalue="Application.SecondLargest" />
       </list>
     </recent_temporary>
   </component>
@@ -188,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659297517547</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Some More Problem solve">
+      <created>1659855254166</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1659855254166</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -307,6 +318,36 @@
           <line>25</line>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/selfgfg/stack/BalancedParenthesis.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/selfgfg/stack/BalancedParenthesis.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/selfgfg/stack/BalancedParenthesis.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/selfgfg/stack/BalancedParenthesis.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/selfgfg/stack/BalancedParenthesis.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/selfgfg/array/NextGreaterElement.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/selfgfg/string/LeftMostRepeatedChar.java</url>
           <line>6</line>
@@ -315,6 +356,24 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/selfgfg/stack/BalancedParenthesis.java</url>
+          <line>6</line>
+          <properties class="selfgfg.stack.BalancedParenthesis" method="isMatching">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/selfgfg/stack/StockSpanProblem.java</url>
+          <line>16</line>
+          <properties class="selfgfg.stack.StockSpanProblem" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="32" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
