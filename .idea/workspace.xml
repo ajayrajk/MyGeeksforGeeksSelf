@@ -63,7 +63,7 @@
       <recent name="selfgfg.stack" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.IsAnagram">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="IsAnagram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="selfgfg.string.IsAnagram" />
       <module name="MyGeeksforGeeksSelf" />
@@ -90,15 +90,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NextGreaterElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="selfgfg.array.NextGreaterElement" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="MyGeeksforGeeksSelf" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="selfgfg.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -131,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.IsAnagram" />
         <item itemvalue="Application.NonRepeatingChar" />
         <item itemvalue="Application.LeftRotationByD" />
         <item itemvalue="Application.SecondLargest" />
-        <item itemvalue="Application.NextGreaterElement" />
       </list>
     </recent_temporary>
   </component>
