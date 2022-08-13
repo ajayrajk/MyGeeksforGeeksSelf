@@ -5,7 +5,7 @@ public class IsAnagram {
 
     static boolean isAnagram(String s1, String s2){
 
-        int charCount []=new int[256];
+        int [] charCount =new int[256];
         if (s1.length()!=s2.length())
             return false;
 
@@ -14,8 +14,8 @@ public class IsAnagram {
             charCount[s2.charAt(i)]--;
         }
 
-        for (int i=0 ; i < charCount.length ; i++){
-            if (charCount[i]!=0){
+        for (int j : charCount) {
+            if (j != 0) {
                 return false;
             }
         }

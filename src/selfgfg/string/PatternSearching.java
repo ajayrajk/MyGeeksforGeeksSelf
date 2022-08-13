@@ -7,10 +7,10 @@ public class PatternSearching {
         int strLength=s.length();
         int patternLength=p.length();
 
-        for (int i=0 ; i< strLength -patternLength  ; i++){
+        for (int i=0 ; i<=strLength -patternLength  ; i++){
             int j;
             for (j=0 ; j< patternLength ; j++){
-                   if (s.charAt(i+j)!=p.charAt(j))
+                if (s.charAt(i+j)!=p.charAt(j))
                        break;
             }
             if (j==patternLength)
