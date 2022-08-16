@@ -14,7 +14,6 @@ public class BinarySearching {
             }else if(arr[mid]<k){
                 low=mid+1;
             }
-            //mid=(low+high)/2;
         }
         return -1;
     }

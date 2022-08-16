@@ -5,10 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b7bf1b8-6388-453b-a34f-75659e45da5d" name="Changes" comment="Some More Problem solve">
-      <change afterPath="$PROJECT_DIR$/src/selfgfg/string/NonRepeatingChar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/selfgfg/array/FindLeaders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/selfgfg/searching/RecursionBSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/selfgfg/string/IsRotated.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/z1media/GetAPIResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/z1media/StringProblem.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/z1media/WordProblem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/selfgfg/string/IsAnagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/selfgfg/string/IsAnagram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/selfgfg/string/PatternSearching.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/selfgfg/string/PatternSearching.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyGeeksforGeeksSelf.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MyGeeksforGeeksSelf.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/selfgfg/searching/BinarySearching.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/selfgfg/searching/BinarySearching.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +25,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="FxmlFile" />
+        <option value="Kotlin Class" />
         <option value="Class" />
       </list>
     </option>
@@ -49,21 +58,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/Users/ajayraj/Documents/MyGitCoding/MySelfGFG/MyGeeksforGeeksSelf/src/z1media",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/z1media" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="z1media" />
       <recent name="selfgfg.stack" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.RecursionBSearch">
+    <configuration name="FindLeaders" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="selfgfg.array.FindLeaders" />
+      <module name="MyGeeksforGeeksSelf" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="selfgfg.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="IsAnagram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="selfgfg.string.IsAnagram" />
       <module name="MyGeeksforGeeksSelf" />
@@ -77,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeftRotationByD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="selfgfg.array.LeftRotationByD" />
+    <configuration name="IsRotated" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="selfgfg.string.IsRotated" />
       <module name="MyGeeksforGeeksSelf" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="selfgfg.array.*" />
+          <option name="PATTERN" value="selfgfg.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,25 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NonRepeatingChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="selfgfg.string.NonRepeatingChar" />
+    <configuration name="RecursionBSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="selfgfg.searching.RecursionBSearch" />
       <module name="MyGeeksforGeeksSelf" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="selfgfg.string.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SecondLargest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="selfgfg.array.SecondLargest" />
-      <module name="MyGeeksforGeeksSelf" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="selfgfg.array.*" />
+          <option name="PATTERN" value="selfgfg.searching.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RecursionBSearch" />
+        <item itemvalue="Application.FindLeaders" />
+        <item itemvalue="Application.IsRotated" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.IsAnagram" />
-        <item itemvalue="Application.NonRepeatingChar" />
-        <item itemvalue="Application.LeftRotationByD" />
-        <item itemvalue="Application.SecondLargest" />
       </list>
     </recent_temporary>
   </component>
@@ -212,7 +227,21 @@
       <option name="project" value="LOCAL" />
       <updated>1660255774835</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Some More Problem solve">
+      <created>1660411279235</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1660411279236</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Some More Problem solve">
+      <created>1660411364774</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1660411364774</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -360,6 +389,16 @@
           <url>file://$PROJECT_DIR$/src/selfgfg/array/NextGreaterElement.java</url>
           <line>42</line>
           <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/selfgfg/string/IsRotated.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/selfgfg/string/IsRotated.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="36" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/selfgfg/string/LeftMostRepeatedChar.java</url>
