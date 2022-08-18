@@ -1,8 +1,7 @@
 package selfgfg.stack;
 
 public class StockSpanProblem {
-
-   static void printSpan(int arr[] , int len){
+    static void printSpan(int arr[] , int len){
 
        for (int i=0 ; i< len ; i++){
            int span=1;
@@ -13,8 +12,7 @@ public class StockSpanProblem {
 
        }
    }
-
-    public static void main(String[] args) {
+   public static void main(String[] args) {
         int[] arr=new int[]{18,12,13,14,11,16};
         printSpan(arr,arr.length);
     }
