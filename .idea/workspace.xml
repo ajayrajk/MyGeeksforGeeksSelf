@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b7bf1b8-6388-453b-a34f-75659e45da5d" name="Changes" comment="InsertionSort and SelectionSorting implement">
-      <change afterPath="$PROJECT_DIR$/src/selfgfg/stack/StockSpanEfficientSolution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/selfgfg/stack/TwoStackArray.java" afterDir="false" />
+    <list default="true" id="2b7bf1b8-6388-453b-a34f-75659e45da5d" name="Changes" comment="Stock span efficient solution&#10;Two stack Problem">
+      <change afterPath="$PROJECT_DIR$/src/selfgfg/string/BinarySubStringProblem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/selfgfg/stack/StockSpanProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/selfgfg/stack/StockSpanProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/selfgfg/string/SubSequenceIterative.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/selfgfg/string/SubSequenceIterative.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/z1media/WordProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/z1media/WordProblem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,13 +71,13 @@
       <recent name="selfgfg.stack" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StockSpanEfficientSolution">
-    <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="selfgfg.sorting.InsertionSort" />
+  <component name="RunManager" selected="Application.BinarySubStringProblem">
+    <configuration name="BinarySubStringProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="selfgfg.string.BinarySubStringProblem" />
       <module name="MyGeeksforGeeksSelf" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="selfgfg.sorting.*" />
+          <option name="PATTERN" value="selfgfg.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RecursionBSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="selfgfg.searching.RecursionBSearch" />
+    <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="selfgfg.sorting.InsertionSort" />
       <module name="MyGeeksforGeeksSelf" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="selfgfg.searching.*" />
+          <option name="PATTERN" value="selfgfg.sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinarySubStringProblem" />
         <item itemvalue="Application.StockSpanEfficientSolution" />
         <item itemvalue="Application.TwoStackArray" />
         <item itemvalue="Application.InsertionSort" />
         <item itemvalue="Application.SelectionSorting" />
-        <item itemvalue="Application.RecursionBSearch" />
       </list>
     </recent_temporary>
   </component>
@@ -254,7 +254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660677143560</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Stock span efficient solution&#10;Two stack Problem">
+      <created>1660802768606</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1660802768606</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -274,7 +281,8 @@
     <MESSAGE value="Problem" />
     <MESSAGE value="Some More Problem solve" />
     <MESSAGE value="InsertionSort and SelectionSorting implement" />
-    <option name="LAST_COMMIT_MESSAGE" value="InsertionSort and SelectionSorting implement" />
+    <MESSAGE value="Stock span efficient solution&#10;Two stack Problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stock span efficient solution&#10;Two stack Problem" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

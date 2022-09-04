@@ -1,16 +1,15 @@
 package z1media;
 
+import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 
 public class WordProblem {
 
     public static String WordSplit(String[] strArr) {
-        Set<String> set = new HashSet<>();
         String[] sArr = strArr[1].split(",");
-        for (String s : sArr) {
-            set.add(s);
-        }
+        Set<String> set = new HashSet<>(Arrays.asList(sArr));
+
         for (int i=0; i<strArr[0].length(); i++) {
             String str1 = strArr[0].substring(0, i+1);
             if (set.contains(str1)) {
