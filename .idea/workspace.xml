@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b7bf1b8-6388-453b-a34f-75659e45da5d" name="Changes" comment="Stock span efficient solution&#10;Two stack Problem">
-      <change afterPath="$PROJECT_DIR$/src/selfgfg/string/BinarySubStringProblem.java" afterDir="false" />
+    <list default="true" id="2b7bf1b8-6388-453b-a34f-75659e45da5d" name="Changes" comment="Binary sub string start and end is 1">
+      <change afterPath="$PROJECT_DIR$/src/selfgfg/stack/PreviousGreaterElement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/selfgfg/string/SubSequenceIterative.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/selfgfg/string/SubSequenceIterative.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/z1media/WordProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/z1media/WordProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/selfgfg/stack/BalancedParenthesis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/selfgfg/stack/BalancedParenthesis.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +70,7 @@
       <recent name="selfgfg.stack" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BinarySubStringProblem">
+  <component name="RunManager" selected="Application.PreviousGreaterElement">
     <configuration name="BinarySubStringProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="selfgfg.string.BinarySubStringProblem" />
       <module name="MyGeeksforGeeksSelf" />
@@ -98,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectionSorting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="selfgfg.sorting.SelectionSorting" />
+    <configuration name="PreviousGreaterElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="selfgfg.stack.PreviousGreaterElement" />
       <module name="MyGeeksforGeeksSelf" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="selfgfg.sorting.*" />
+          <option name="PATTERN" value="selfgfg.stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PreviousGreaterElement" />
         <item itemvalue="Application.BinarySubStringProblem" />
         <item itemvalue="Application.StockSpanEfficientSolution" />
         <item itemvalue="Application.TwoStackArray" />
         <item itemvalue="Application.InsertionSort" />
-        <item itemvalue="Application.SelectionSorting" />
       </list>
     </recent_temporary>
   </component>
@@ -261,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660802768606</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Binary sub string start and end is 1">
+      <created>1662324723514</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1662324723514</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -282,7 +288,8 @@
     <MESSAGE value="Some More Problem solve" />
     <MESSAGE value="InsertionSort and SelectionSorting implement" />
     <MESSAGE value="Stock span efficient solution&#10;Two stack Problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="Stock span efficient solution&#10;Two stack Problem" />
+    <MESSAGE value="Binary sub string start and end is 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Binary sub string start and end is 1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -384,28 +391,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/selfgfg/stack/BalancedParenthesis.java</url>
-          <line>29</line>
+          <line>28</line>
           <option name="timeStamp" value="26" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/selfgfg/stack/BalancedParenthesis.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="27" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/selfgfg/stack/BalancedParenthesis.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="28" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/selfgfg/stack/BalancedParenthesis.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="29" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/selfgfg/stack/BalancedParenthesis.java</url>
-          <line>7</line>
-          <option name="timeStamp" value="30" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/selfgfg/array/NextGreaterElement.java</url>
@@ -470,15 +457,6 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/selfgfg/stack/BalancedParenthesis.java</url>
-          <line>6</line>
-          <properties class="selfgfg.stack.BalancedParenthesis" method="isMatching">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="31" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/selfgfg/stack/StockSpanProblem.java</url>
