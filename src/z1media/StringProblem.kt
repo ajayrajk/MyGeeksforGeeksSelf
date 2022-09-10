@@ -20,8 +20,6 @@ class StringProblem {
 
 
                  }
-
-
                 if (!set.contains(map.getValue("username").toString()) ) {
                     set.add(map.getValue("username"))
                     println(map)

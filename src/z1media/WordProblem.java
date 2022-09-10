@@ -9,7 +9,6 @@ public class WordProblem {
     public static String WordSplit(String[] strArr) {
         String[] sArr = strArr[1].split(",");
         Set<String> set = new HashSet<>(Arrays.asList(sArr));
-
         for (int i=0; i<strArr[0].length(); i++) {
             String str1 = strArr[0].substring(0, i+1);
             if (set.contains(str1)) {

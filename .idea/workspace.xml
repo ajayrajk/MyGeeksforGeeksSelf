@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b7bf1b8-6388-453b-a34f-75659e45da5d" name="Changes" comment="Binary sub string start and end is 1">
-      <change afterPath="$PROJECT_DIR$/src/selfgfg/stack/PreviousGreaterElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/selfgfg/array/SlidingWindowMaxSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/selfgfg/stack/BalancedParenthesis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/selfgfg/stack/BalancedParenthesis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/z1media/StringProblem.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/z1media/StringProblem.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/z1media/WordProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/z1media/WordProblem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +71,7 @@
       <recent name="selfgfg.stack" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PreviousGreaterElement">
+  <component name="RunManager" selected="Application.SlidingWindowMaxSum">
     <configuration name="BinarySubStringProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="selfgfg.string.BinarySubStringProblem" />
       <module name="MyGeeksforGeeksSelf" />
@@ -84,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="selfgfg.sorting.InsertionSort" />
+    <configuration name="PreviousGreaterElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="selfgfg.stack.PreviousGreaterElement" />
       <module name="MyGeeksforGeeksSelf" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="selfgfg.sorting.*" />
+          <option name="PATTERN" value="selfgfg.stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PreviousGreaterElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="selfgfg.stack.PreviousGreaterElement" />
+    <configuration name="SlidingWindowMaxSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="selfgfg.array.SlidingWindowMaxSum" />
       <module name="MyGeeksforGeeksSelf" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="selfgfg.stack.*" />
+          <option name="PATTERN" value="selfgfg.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SlidingWindowMaxSum" />
         <item itemvalue="Application.PreviousGreaterElement" />
         <item itemvalue="Application.BinarySubStringProblem" />
         <item itemvalue="Application.StockSpanEfficientSolution" />
         <item itemvalue="Application.TwoStackArray" />
-        <item itemvalue="Application.InsertionSort" />
       </list>
     </recent_temporary>
   </component>
@@ -267,7 +268,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662324723514</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Binary sub string start and end is 1">
+      <created>1662655855893</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1662655855893</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
