@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b7bf1b8-6388-453b-a34f-75659e45da5d" name="Changes" comment="Binary sub string start and end is 1">
-      <change afterPath="$PROJECT_DIR$/src/selfgfg/array/SlidingWindowMaxSum.java" afterDir="false" />
+    <list default="true" id="2b7bf1b8-6388-453b-a34f-75659e45da5d" name="Changes" comment="Sliding Window Problem">
+      <change afterPath="$PROJECT_DIR$/src/selfgfg/array/MajorityWins.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/selfgfg/array/MaximumAdjacent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/selfgfg/array/MeanMedian.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/z1media/StringProblem.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/z1media/StringProblem.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/z1media/WordProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/z1media/WordProblem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,13 +71,39 @@
       <recent name="selfgfg.stack" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SlidingWindowMaxSum">
-    <configuration name="BinarySubStringProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="selfgfg.string.BinarySubStringProblem" />
+  <component name="RunManager" selected="Application.MaximumAdjacent">
+    <configuration name="MajorityWins" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="selfgfg.array.MajorityWins" />
       <module name="MyGeeksforGeeksSelf" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="selfgfg.string.*" />
+          <option name="PATTERN" value="selfgfg.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaximumAdjacent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="selfgfg.array.MaximumAdjacent" />
+      <module name="MyGeeksforGeeksSelf" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="selfgfg.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MeanMedian" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="selfgfg.array.MeanMedian" />
+      <module name="MyGeeksforGeeksSelf" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="selfgfg.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,39 +137,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StockSpanEfficientSolution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="selfgfg.stack.StockSpanEfficientSolution" />
-      <module name="MyGeeksforGeeksSelf" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="selfgfg.stack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TwoStackArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="selfgfg.stack.TwoStackArray" />
-      <module name="MyGeeksforGeeksSelf" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="selfgfg.stack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaximumAdjacent" />
+        <item itemvalue="Application.MajorityWins" />
+        <item itemvalue="Application.MeanMedian" />
         <item itemvalue="Application.SlidingWindowMaxSum" />
         <item itemvalue="Application.PreviousGreaterElement" />
-        <item itemvalue="Application.BinarySubStringProblem" />
-        <item itemvalue="Application.StockSpanEfficientSolution" />
-        <item itemvalue="Application.TwoStackArray" />
       </list>
     </recent_temporary>
   </component>
@@ -275,7 +275,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662655855893</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Sliding Window Problem">
+      <created>1662815916554</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1662815916554</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -297,7 +304,8 @@
     <MESSAGE value="InsertionSort and SelectionSorting implement" />
     <MESSAGE value="Stock span efficient solution&#10;Two stack Problem" />
     <MESSAGE value="Binary sub string start and end is 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Binary sub string start and end is 1" />
+    <MESSAGE value="Sliding Window Problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sliding Window Problem" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
