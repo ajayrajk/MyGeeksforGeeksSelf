@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b7bf1b8-6388-453b-a34f-75659e45da5d" name="Changes" comment="MaximumAdjacent &#10;MeanMedian&#10;MajorityWins">
-      <change afterPath="$PROJECT_DIR$/src/selfgfg/array/ReverseArrayInGroup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/selfgfg/stack/RemovePair.java" afterDir="false" />
+    <list default="true" id="2b7bf1b8-6388-453b-a34f-75659e45da5d" name="Changes" comment="Stack and Array Problem">
+      <change afterPath="$PROJECT_DIR$/src/selfgfg/string/IsRotedByTwo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,13 +69,13 @@
       <recent name="selfgfg.stack" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RemoveConsecutiveDuplicate">
-    <configuration name="MajorityWins" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="selfgfg.array.MajorityWins" />
+  <component name="RunManager" selected="Application.IsRotedByTwo">
+    <configuration name="IsRotedByTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="selfgfg.string.IsRotedByTwo" />
       <module name="MyGeeksforGeeksSelf" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="selfgfg.array.*" />
+          <option name="PATTERN" value="selfgfg.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IsRotedByTwo" />
         <item itemvalue="Application.RemoveConsecutiveDuplicate" />
         <item itemvalue="Application.RemovePair" />
         <item itemvalue="Application.ReverseArrayInGroup" />
         <item itemvalue="Application.MaximumAdjacent" />
-        <item itemvalue="Application.MajorityWins" />
       </list>
     </recent_temporary>
   </component>
@@ -288,7 +287,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662889031036</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Stack and Array Problem">
+      <created>1663019009738</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1663019009738</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -312,7 +318,8 @@
     <MESSAGE value="Binary sub string start and end is 1" />
     <MESSAGE value="Sliding Window Problem" />
     <MESSAGE value="MaximumAdjacent &#10;MeanMedian&#10;MajorityWins" />
-    <option name="LAST_COMMIT_MESSAGE" value="MaximumAdjacent &#10;MeanMedian&#10;MajorityWins" />
+    <MESSAGE value="Stack and Array Problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stack and Array Problem" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
