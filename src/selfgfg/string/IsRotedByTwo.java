@@ -10,13 +10,16 @@ public class IsRotedByTwo {
         //for clock wise rotation
         boolean clockWise=true, antiClockWise=true;
         for(int i=0 ; i< n ; i++){
-            if(str1.charAt(i)!=str2.charAt((i+2)%n)){
-                clockWise=false;
+            if (str1.charAt(i) != str2.charAt((i + 2) % n)) {
+                clockWise = false;
+                break;
             }
         }
         for(int i=0 ; i< m ; i++){
-            if(str1.charAt((i+2)%n)!=str2.charAt(i))
-                antiClockWise=false;
+            if (str1.charAt((i + 2) % n) != str2.charAt(i)) {
+                antiClockWise = false;
+                break;
+            }
         }
 
         return (antiClockWise || clockWise);
