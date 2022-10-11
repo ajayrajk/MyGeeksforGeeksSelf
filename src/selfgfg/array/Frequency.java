@@ -12,6 +12,7 @@ public class Frequency {
         for(int i=1; i<= P; i++){
             System.out.print( count[i] +" ");
         }
+
     }
 
     public static void main(String[] args) {
