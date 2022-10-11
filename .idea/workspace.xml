@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b7bf1b8-6388-453b-a34f-75659e45da5d" name="Changes" comment="String is rotated by two.">
-      <change afterPath="$PROJECT_DIR$/src/selfgfg/array/PrintPattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/selfgfg/linkedlist/CheckPalindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/selfgfg/linkedlist/LinkedListOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/selfgfg/sorting/QuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/selfgfg/string/IsRotatedString.java" afterDir="false" />
+    <list default="true" id="2b7bf1b8-6388-453b-a34f-75659e45da5d" name="Changes" comment="LINKED LIST PROBLEM&#10;ARRAY PROBLEM">
+      <change afterPath="$PROJECT_DIR$/src/selfgfg/array/Frequency.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/selfgfg/array/FrequencyCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/selfgfg/array/MoveZeroToEnd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/selfgfg/array/RearrangeArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,13 +72,13 @@
       <recent name="selfgfg.stack" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PrintPattern">
-    <configuration name="CheckPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="selfgfg.linkedlist.CheckPalindrome" />
+  <component name="RunManager" selected="Application.Frequency">
+    <configuration name="Frequency" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="selfgfg.array.Frequency" />
       <module name="MyGeeksforGeeksSelf" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="selfgfg.linkedlist.*" />
+          <option name="PATTERN" value="selfgfg.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,25 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IsRotatedString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="selfgfg.string.IsRotatedString" />
+    <configuration name="FrequencyCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="selfgfg.array.FrequencyCount" />
       <module name="MyGeeksforGeeksSelf" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="selfgfg.string.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LinkedListOperation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="selfgfg.linkedlist.LinkedListOperation" />
-      <module name="MyGeeksforGeeksSelf" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="selfgfg.linkedlist.*" />
+          <option name="PATTERN" value="selfgfg.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,12 +112,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="selfgfg.linkedlist.DetectLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="selfgfg.linkedlist.DetectLoop" />
+    <configuration name="RearrangeArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="selfgfg.array.RearrangeArray" />
       <module name="MyGeeksforGeeksSelf" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="selfgfg.linkedlist.*" />
+          <option name="PATTERN" value="selfgfg.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SubStringFind" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="selfgfg.string.SubStringFind" />
+      <module name="MyGeeksforGeeksSelf" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="selfgfg.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Frequency" />
+        <item itemvalue="Application.FrequencyCount" />
+        <item itemvalue="Application.SubStringFind" />
+        <item itemvalue="Application.RearrangeArray" />
         <item itemvalue="Application.PrintPattern" />
-        <item itemvalue="Application.IsRotatedString" />
-        <item itemvalue="Application.CheckPalindrome" />
-        <item itemvalue="Application.LinkedListOperation" />
-        <item itemvalue="Application.selfgfg.linkedlist.DetectLoop" />
       </list>
     </recent_temporary>
   </component>
@@ -312,7 +311,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663177893837</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="LINKED LIST PROBLEM&#10;ARRAY PROBLEM">
+      <created>1664293710127</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1664293710127</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -338,7 +344,8 @@
     <MESSAGE value="MaximumAdjacent &#10;MeanMedian&#10;MajorityWins" />
     <MESSAGE value="Stack and Array Problem" />
     <MESSAGE value="String is rotated by two." />
-    <option name="LAST_COMMIT_MESSAGE" value="String is rotated by two." />
+    <MESSAGE value="LINKED LIST PROBLEM&#10;ARRAY PROBLEM" />
+    <option name="LAST_COMMIT_MESSAGE" value="LINKED LIST PROBLEM&#10;ARRAY PROBLEM" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -522,6 +529,26 @@
           <url>file://$PROJECT_DIR$/src/selfgfg/linkedlist/LinkedListOperation.java</url>
           <line>5</line>
           <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/selfgfg/array/Frequency.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/selfgfg/array/Frequency.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/selfgfg/array/Frequency.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/selfgfg/array/Frequency.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="61" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/selfgfg/string/LeftMostRepeatedChar.java</url>
