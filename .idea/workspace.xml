@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b7bf1b8-6388-453b-a34f-75659e45da5d" name="Changes" comment="ARRAY PROBLEM">
-      <change afterPath="$PROJECT_DIR$/src/selfgfg/stack/GetMinFromStack.java" afterDir="false" />
+    <list default="true" id="2b7bf1b8-6388-453b-a34f-75659e45da5d" name="Changes" comment="get Min from Stack">
+      <change afterPath="$PROJECT_DIR$/src/selfgfg/bitSetMagic/CheckKBit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/selfgfg/bitSetMagic/CountSetBit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/selfgfg/linkedlist/DoublyLinkedListOperation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/selfgfg/linkedlist/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/selfgfg/linkedlist/Node.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +72,33 @@
       <recent name="selfgfg.stack" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GetMinFromStack">
+  <component name="RunManager" selected="Application.DoublyLinkedListOperation">
+    <configuration name="CountSetBit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="selfgfg.bitSetMagic.CountSetBit" />
+      <module name="MyGeeksforGeeksSelf" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="selfgfg.bitSetMagic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DoublyLinkedListOperation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="selfgfg.linkedlist.DoublyLinkedListOperation" />
+      <module name="MyGeeksforGeeksSelf" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="selfgfg.linkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Frequency" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="selfgfg.array.Frequency" />
       <module name="MyGeeksforGeeksSelf" />
@@ -109,39 +138,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RearrangeArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="selfgfg.array.RearrangeArray" />
-      <module name="MyGeeksforGeeksSelf" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="selfgfg.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SubStringFind" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="selfgfg.string.SubStringFind" />
-      <module name="MyGeeksforGeeksSelf" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="selfgfg.string.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DoublyLinkedListOperation" />
+        <item itemvalue="Application.CountSetBit" />
         <item itemvalue="Application.GetMinFromStack" />
         <item itemvalue="Application.Frequency" />
         <item itemvalue="Application.FrequencyCount" />
-        <item itemvalue="Application.SubStringFind" />
-        <item itemvalue="Application.RearrangeArray" />
       </list>
     </recent_temporary>
   </component>
@@ -329,7 +332,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665509587279</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="get Min from Stack">
+      <created>1665600362304</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1665600362304</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -357,7 +367,8 @@
     <MESSAGE value="String is rotated by two." />
     <MESSAGE value="LINKED LIST PROBLEM&#10;ARRAY PROBLEM" />
     <MESSAGE value="ARRAY PROBLEM" />
-    <option name="LAST_COMMIT_MESSAGE" value="ARRAY PROBLEM" />
+    <MESSAGE value="get Min from Stack" />
+    <option name="LAST_COMMIT_MESSAGE" value="get Min from Stack" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -516,26 +527,6 @@
           <url>file://$PROJECT_DIR$/src/selfgfg/stack/TwoStackArray.java</url>
           <line>31</line>
           <option name="timeStamp" value="51" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/selfgfg/linkedlist/LinkedListOperation.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="52" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/selfgfg/linkedlist/LinkedListOperation.java</url>
-          <line>10</line>
-          <option name="timeStamp" value="53" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/selfgfg/linkedlist/LinkedListOperation.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="54" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/selfgfg/linkedlist/LinkedListOperation.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="55" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/selfgfg/linkedlist/LinkedListOperation.java</url>
