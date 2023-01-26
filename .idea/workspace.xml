@@ -4,15 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b7bf1b8-6388-453b-a34f-75659e45da5d" name="Changes" comment="Linked List &#10;Bit set">
-      <change afterPath="$PROJECT_DIR$/src/selfgfg/array/LISArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/selfgfg/array/MissingRepeatingNum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/selfgfg/array/RemoveDuplicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/selfgfg/linkedlist/NthFromEndNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/selfgfg/string/DigitSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/selfgfg/string/GetMaxLexicographical.java" afterDir="false" />
+    <list default="true" id="2b7bf1b8-6388-453b-a34f-75659e45da5d" name="Changes" comment="String Array Problem">
+      <change afterPath="$PROJECT_DIR$/src/selfgfg/recursion/PowerOfNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/selfgfg/tree/LevelOrderTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/selfgfg/tree/LevelOrderTraversalByLine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/selfgfg/tree/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/selfgfg/tree/PrePostInOrderTraversal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/selfgfg/array/FrequencyCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/selfgfg/array/FrequencyCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/selfgfg/array/Sort012.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/selfgfg/array/Sort012.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,13 +74,13 @@
       <recent name="selfgfg.stack" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MissingRepeatingNum">
-    <configuration name="FrequencyCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="selfgfg.array.FrequencyCount" />
+  <component name="RunManager" selected="Application.PowerOfNumber">
+    <configuration name="LevelOrderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="selfgfg.tree.LevelOrderTraversal" />
       <module name="MyGeeksforGeeksSelf" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="selfgfg.array.*" />
+          <option name="PATTERN" value="selfgfg.tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,25 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetMaxLexicographical" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="selfgfg.string.GetMaxLexicographical" />
+    <configuration name="LevelOrderTraversalByLine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="selfgfg.tree.LevelOrderTraversalByLine" />
       <module name="MyGeeksforGeeksSelf" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="selfgfg.string.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LISArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="selfgfg.array.LISArray" />
-      <module name="MyGeeksforGeeksSelf" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="selfgfg.array.*" />
+          <option name="PATTERN" value="selfgfg.tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,12 +114,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveDuplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="selfgfg.array.RemoveDuplicate" />
+    <configuration name="PowerOfNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="selfgfg.recursion.PowerOfNumber" />
       <module name="MyGeeksforGeeksSelf" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="selfgfg.array.*" />
+          <option name="PATTERN" value="selfgfg.recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrePostInOrderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="selfgfg.tree.PrePostInOrderTraversal" />
+      <module name="MyGeeksforGeeksSelf" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="selfgfg.tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PowerOfNumber" />
+        <item itemvalue="Application.LevelOrderTraversalByLine" />
+        <item itemvalue="Application.LevelOrderTraversal" />
+        <item itemvalue="Application.PrePostInOrderTraversal" />
         <item itemvalue="Application.MissingRepeatingNum" />
-        <item itemvalue="Application.LISArray" />
-        <item itemvalue="Application.RemoveDuplicate" />
-        <item itemvalue="Application.GetMaxLexicographical" />
-        <item itemvalue="Application.FrequencyCount" />
       </list>
     </recent_temporary>
   </component>
@@ -356,7 +355,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673079462755</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="String Array Problem">
+      <created>1674332304155</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1674332304155</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -398,7 +404,8 @@
     <MESSAGE value="ARRAY PROBLEM" />
     <MESSAGE value="get Min from Stack" />
     <MESSAGE value="Linked List &#10;Bit set" />
-    <option name="LAST_COMMIT_MESSAGE" value="Linked List &#10;Bit set" />
+    <MESSAGE value="String Array Problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="String Array Problem" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -585,12 +592,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/selfgfg/array/MissingRepeatingNum.java</url>
-          <line>23</line>
+          <line>20</line>
           <option name="timeStamp" value="68" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/selfgfg/array/MissingRepeatingNum.java</url>
-          <line>30</line>
+          <line>29</line>
           <option name="timeStamp" value="71" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -673,6 +680,11 @@
           <line>19</line>
           <option name="timeStamp" value="91" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/selfgfg/recursion/PowerOfNumber.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/selfgfg/string/LeftMostRepeatedChar.java</url>
           <line>6</line>
@@ -726,6 +738,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/selfgfg/recursion/PowerOfNumber.java</url>
+          <line>4</line>
+          <properties class="selfgfg.recursion.PowerOfNumber" method="power">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="93" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

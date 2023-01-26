@@ -1,7 +1,6 @@
 package selfgfg.array;
 
 public class Sort012 {
-
     public static void sort012( int a[],int n)
     {
         // code here
@@ -16,7 +15,6 @@ public class Sort012 {
                     mid++;
                     break ;
                   }
-
                 case 1:{
                     mid++;
                     break;
@@ -32,12 +30,10 @@ public class Sort012 {
             }
         }
     }
-
     public static void main(String[] args) {
         int a[]= {0 ,2 ,1 ,2, 0,1,0};
         sort012(a,7);
         for (int i=0; i<a.length ;i++)
          System.out.print(a[i]+" ");
-
     }
 }
