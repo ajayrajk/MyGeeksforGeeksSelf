@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b7bf1b8-6388-453b-a34f-75659e45da5d" name="Changes" comment="String Array Problem">
-      <change afterPath="$PROJECT_DIR$/src/selfgfg/recursion/PowerOfNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/selfgfg/tree/LevelOrderTraversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/selfgfg/tree/LevelOrderTraversalByLine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/selfgfg/tree/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/selfgfg/tree/PrePostInOrderTraversal.java" afterDir="false" />
+    <list default="true" id="2b7bf1b8-6388-453b-a34f-75659e45da5d" name="Changes" comment="Tree Problem">
+      <change afterPath="$PROJECT_DIR$/src/dsbydurga/ArrayOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/selfgfg/linkedlist/InsertAtEnd.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/selfgfg/array/Sort012.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/selfgfg/array/Sort012.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -362,7 +358,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674332304155</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Tree Problem">
+      <created>1674757909982</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1674757909982</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -405,7 +408,8 @@
     <MESSAGE value="get Min from Stack" />
     <MESSAGE value="Linked List &#10;Bit set" />
     <MESSAGE value="String Array Problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="String Array Problem" />
+    <MESSAGE value="Tree Problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tree Problem" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
